@@ -59,6 +59,15 @@ Debug
     background-color: white;
 }
 
+.debug .sez4{
+    background-color: #d3d3d3;
+}
+
+.debug .coda{
+    height: 400px;
+    background-color: #228b22;
+}
+
 /*
 ------------------ 
 Common
@@ -113,14 +122,6 @@ Header
 Main
 ------------------ 
  */
-.cont1{
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .testo{
     width: 60%;
 }
@@ -129,7 +130,7 @@ Main
     width: 40%;
 }
 
-.cont2{
+.cont{
     display: flex;
     width: 70%;
     justify-content: center;
@@ -137,8 +138,7 @@ Main
     padding-bottom: 20px;
 }
 
-.cont3{
-    display: flex;
+.cont4{
     width: 70%;
     justify-content: center;
     padding-top: 20px;
