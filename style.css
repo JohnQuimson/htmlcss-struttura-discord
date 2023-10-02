@@ -23,12 +23,12 @@ Debug
 }
 
 .debug .logo, .debug .sito, .debug .login{
-    text-align: center;
     border: 1px dashed black;
 }
 
 .debug .header-bottom{
     background-color: #00008b;
+    border-bottom: 2px solid #add8e6;
 }
 
 .debug .contenuto-headbottom{
@@ -73,7 +73,6 @@ Debug
 /* Debug footer-top */
 .debug .footer-top{
     background-color: #23272a;
-    border-bottom: #b4b4b3;
 }
 
 .debug .social{
@@ -92,14 +91,33 @@ Debug
     border: 1px dashed white;
 }
 
+/* Debug footer-bottom */
+.debug .footer-bottom{
+    background-color: #23272a;
+    border-top: 1px solid #969696;
+}
+
+.debug .cont-footer-bottom{
+    background-color: #7fffd4;
+}
+
+.debug .logo-bottom, .debug .bottone{
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+}
+
 /*
 ------------------ 
 Common
 ------------------ 
  */
- .layout {
+.layout {
     margin: 0 auto;
-  }
+}
+
+body{
+    font-size: 12px;
+}
 
 /*
 ------------------ 
@@ -111,7 +129,7 @@ Header
 }
 
 .container-header div{
-    padding: 5px;
+    padding: 3px;
 }
 
 .container-header{
@@ -120,13 +138,20 @@ Header
     width: 70%;
 }
 
-.sito{
-    width: 50%;
+/* Allineamenti testi header-top */
+.logo{
+    text-align: left;
+    width: 20%;
 }
 
-.logo, 
+.sito{
+    text-align: center;
+    width: 60%;
+}
+
 .login{
-    width: 25%;
+    text-align: right;
+    width: 20%;
 }
 
 .header-bottom{
@@ -174,6 +199,8 @@ Main
 Footer
 ------------------ 
  */
+
+ /* footer-top */
 .cont-footer-top{
     display: flex;
     width: 70%;
@@ -193,4 +220,21 @@ Footer
 
 .info div{
     width: calc(100% / 4);
+}
+
+/* footer-bottom */
+.cont-footer-bottom{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.logo-bottom{
+    padding: 3px;
+}
+
+.bottone{
+    padding: 3px;
 }
