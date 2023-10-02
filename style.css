@@ -21,8 +21,9 @@ Debug
     text-align: center;
 }
 
-.debug .logo{
+.debug .logo, .debug .sito, .debug .login{
     text-align: center;
+    border: 1px dashed black;
 }
 
 .debug .header-bottom{
@@ -32,6 +33,18 @@ Debug
 .debug .contenuto-headbottom{
     height: 200px;
     background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+/* Debug sezione 1 */
+.debug .testo, .debug .foto{
+    height: 250px;
+    border: 1px dashed black;
+    background-color: #1e90ff;
+}
+
+.debug .foto{
+    background-color: #ffc0cb; 
 }
 
 /*
@@ -43,9 +56,6 @@ Common
     margin: 0 auto;
   }
 
-.dashed{
-    border: 1px dashed black;
-}
 
 
 /*
@@ -85,4 +95,26 @@ Header
 
 .contenuto-headbottom{
     width: 50%;
+}
+
+
+/*
+------------------ 
+Main
+------------------ 
+ */
+.cont1{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.testo{
+    width: 60%;
+}
+
+.foto{
+    width: 40%;
 }
