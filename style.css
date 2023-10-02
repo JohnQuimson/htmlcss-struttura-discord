@@ -3,3 +3,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*
+------------------ 
+Debug
+------------------ 
+ */
+.debug .header-top{
+    background-color: #add8e6;
+}
+
+.debug .container-header div{
+    background-color: #daa520;
+    border: 1px dashed black;
+}
+
+.debug .container-header{
+    text-align: center;
+}
+
+.debug .logo{
+    text-align: center;
+}
+
+/*
+------------------ 
+Common
+------------------ 
+ */
+
+.header-top{
+    padding: 10px;
+}
+
+.container-header div{
+    padding: 5px;
+}
+
+
+/*
+------------------ 
+Header
+------------------ 
+ */
+.container-header{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sito{
+    width: 50%;
+}
+
+.logo, 
+.login{
+    width: 25%;
+}
