@@ -15,7 +15,6 @@ Debug
 
 .debug .container-header div{
     background-color: #daa520;
-    border: 1px dashed black;
 }
 
 .debug .container-header{
@@ -26,18 +25,26 @@ Debug
     text-align: center;
 }
 
+.debug .header-bottom{
+    background-color: #00008b;
+}
+
+.debug .contenuto-headbottom{
+    height: 200px;
+    background-color: #ee82ee;
+}
+
 /*
 ------------------ 
 Common
 ------------------ 
  */
+ .layout {
+    margin: 0 auto;
+  }
 
-.header-top{
-    padding: 10px;
-}
-
-.container-header div{
-    padding: 5px;
+.dashed{
+    border: 1px dashed black;
 }
 
 
@@ -46,11 +53,18 @@ Common
 Header
 ------------------ 
  */
+ .header-top{
+    padding-top: 10px;
+}
+
+.container-header div{
+    padding: 5px;
+}
+
 .container-header{
     display: flex;
     justify-content: center;
     width: 70%;
-    margin: 0 auto;
 }
 
 .sito{
@@ -60,4 +74,15 @@ Header
 .logo, 
 .login{
     width: 25%;
+}
+
+.header-bottom{
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.contenuto-headbottom{
+    width: 50%;
 }
